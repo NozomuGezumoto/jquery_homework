@@ -4,6 +4,9 @@ body {
 }
 
 .container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
   padding: 40px;
 }
 
@@ -19,9 +22,9 @@ body {
 }
 
 .q-box {
-  margin-top: 70px;
+  margin:auto;
   border: 1px solid #66ccff;
-  padding: 50px 20px;
+  padding: auto;
   border-radius: 10px;
 }
 
@@ -52,8 +55,10 @@ body {
 }
 
 .box-wrapper {
-  height: 100px;
-  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  height: 360px;
+  width: 600px;
   text-align: center;
   margin: 20px auto;
 }
@@ -75,6 +80,8 @@ body {
 
 /* ボタンのサイズを変更 */
 .btn-wrapper {
+  /* display: flex; */
+
   text-align: center;
 }
 
@@ -292,4 +299,10 @@ body {
   cursor: pointer;
   font-size: 50px;
   margin-top: -25px;
+}
+#js-target-element{
+  display: flex;
+  justify-content: space-around;
+  /* text-align: center; */
+  display: none;
 }
